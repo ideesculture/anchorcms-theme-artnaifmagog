@@ -146,7 +146,7 @@
 
 		<div class="sidebar">
 			<nav class="grid 1of1 sidebar-nav">
-				<a href="<?php echo base_url(); ?>" class="home <?php echo (is_homepage() ? 'current' : '') ?>"><img src=img/nav_logo300.png alt="home" /></a>
+				<a href="<?php echo base_url(); ?>" class="home <?php echo (is_homepage() ? 'current' : '') ?>"><img src=themes/anchorcms-theme-artnaifmagog/img/nav_logo300.png alt="home" /></a>
 
 				<?php echo $latestPostLink; ?>
 
