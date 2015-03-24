@@ -1,5 +1,5 @@
-Theme name:    Bushwick
-Description:   A theme. For Blogz and ting.
-Author name:   James Dinsdale
-Author site:   http://molovo.co.uk
-License:       http://licence.visualidiot.com
+Theme name:    AnchorCMS theme ArtNaifMagog
+Description:   A theme for anchorcms to be included side-to-side with CollectiveAccess Pawtucket
+Author name:   Gautier Michelin
+Author site:   https://github.com/ideesculture/anchorcms-theme-artnaifmagog
+License:       https://www.gnu.org/copyleft/gpl.html
