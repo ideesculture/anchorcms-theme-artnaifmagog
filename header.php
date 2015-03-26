@@ -143,22 +143,24 @@
 	</head>
 
 	<body>
+		<div class="topmenu">
+			<nav class="grid 1of1 sidebar-nav">
+					<a href="<?php echo base_url(); ?>" class="home <?php echo (is_homepage() ? 'current' : '') ?>"><img src=<?php echo theme_url('/img/nav_logo300.png'); ?> alt="home" /></a>
+
+					<?php if(has_menu_items()): ?>
+						<?php while(menu_items()): ?>
+							<a href="<?php echo menu_url(); ?>" class="<?php echo (menu_active() ? 'current' : '') ?>" title="<?php echo menu_title(); ?>"><?php echo menu_name(); ?>
+							</a>
+						<?php endwhile; ?>
+					<?php endif; ?>
+					<!--
+					<a href="#menu" class="menu icon">M</a>
+					-->
+				</nav>
+		</div>
 
 		<div class="sidebar">
-			<nav class="grid 1of1 sidebar-nav">
-				<a href="<?php echo base_url(); ?>" class="home <?php echo (is_homepage() ? 'current' : '') ?>"><img src=themes/anchorcms-theme-artnaifmagog/img/nav_logo300.png alt="home" /></a>
 
-				<?php echo $latestPostLink; ?>
-
-				<?php if(has_menu_items()): ?>
-					<?php while(menu_items()): ?>
-						<a href="<?php echo menu_url(); ?>" class="<?php echo (menu_active() ? 'current' : '') ?>" title="<?php echo menu_title(); ?>"><?php echo menu_name(); ?>
-						</a>
-					<?php endwhile; ?>
-				<?php endif; ?>
-
-				<a href="#menu" class="menu icon">M</a>
-			</nav>
 
 			<div class="container">
 				<div class="grid 1of1 sidebar-content force-grid">
@@ -206,11 +208,9 @@
 						<?php endwhile; ?>
 						</ul>
 					</aside>
-
 					<div class="grid 1of1 ralign">
 						<a href="#menu" class="menu icon">M</a>
 					</div>
-
 				</div>
 			</div>
 			<!--<div class="tray">
@@ -220,10 +220,11 @@
 					<div class="grid 1of2 categories"></div>
 				</div>
 			</div>-->
-
+			
 			<header id="top">
 				<div class="container">
 					<nav class="grid 1of1 top-nav">
+						<!--
 					    <?php echo $latestPostLink; ?>
 
 						<?php if(has_menu_items()): ?>
@@ -231,10 +232,10 @@
 								<a href="<?php echo menu_url(); ?>" class="<?php echo (menu_active() ? 'current' : '') ?>" title="<?php echo menu_title(); ?>"><?php echo menu_name(); ?></a>
 							<?php endwhile; ?>
 						<?php endif; ?>
-
+						-->
 						<a href="#menu" class="menu icon">M</a>
 					</nav>
 				</div>
 			</header>
-
+			
 			<div class="container">

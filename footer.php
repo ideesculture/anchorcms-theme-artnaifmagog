@@ -9,7 +9,6 @@
 		                		All rights reserved.
 	                		</p>
 	                		<p>
-		                		Built with <a href="http://melodycss.co" target="_blank">Melody</a><br />
 		                		Powered by <a href="http://anchorcms.com" target="_blank">Anchor CMS</a>
 	                		</p>
 	                	</small>
